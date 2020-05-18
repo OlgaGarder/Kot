@@ -1,0 +1,241 @@
+.main{
+    margin-top: 150px;
+    .accordion{
+        justify-content: right;
+        float: right;
+        width: 174px;
+        height: 139px;
+        box-shadow: 0px 1px 4px;
+        background-color: #fff;
+        position: relative;
+        top: 10px; 
+        right: 70px;
+        z-index: 1;
+        li{
+        padding-top: 15px;
+        padding-left: 5px;
+        position: relative;
+        bottom: 20px;
+        }
+        .str{
+            img{
+                padding-left: 140px;
+                position: relative;
+                top: 12px;
+            }
+        }
+        span{
+            padding-left: 5px;
+        }
+    }
+    
+    .block{
+        display: flex;
+    }
+    .nav_menu{
+        display:block;
+    }
+    .price{
+        input{
+            margin-right: 0px;
+            width: 100px;
+            height: 24px;
+            box-sizing: border-box;
+            border: 1px solid #e1f1f1;
+        }
+        .num{
+            font-weight: normal;
+            font-size: 14px;
+            color: #1A212F;
+        }
+    }
+    .area{
+        display:block;
+        margin-top: 35px;
+        div{
+           display: grid;
+        }
+        input[type="checkbox"]+span,input[type="radio"]+span{
+            -webkit-appearance:none;
+            width:20px;
+            height:20px;
+            border:1px solid rgba(0,0,0,.3);
+            outline:none;
+            margin:5px;
+            box-sizing:border-box;
+            display:inline-block;
+        }
+        input[type="checkbox"]:checked+span:before{
+            content:"";
+            display:block;
+            width:6px;
+            height:8px;
+            border:0 solid rgb(20, 20, 20);
+            border-width:0 1.5px 2px 0;
+            -webkit-transform:rotateZ(45deg);
+            margin:2px 5px;
+            pointer-events:none;
+        }
+        .num{
+            position: relative;
+            bottom: 5px;
+            margin-left: 10px;
+        }
+    }
+    .room{
+        margin-top: 35px;
+        div{
+            display: grid;
+         }
+         input[type="checkbox"]+span,input[type="radio"]+span{
+             -webkit-appearance:none;
+             width:20px;
+             height:20px;
+             border:1px solid rgba(0,0,0,.3);
+             outline:none;
+             margin:5px;
+             box-sizing:border-box;
+             display:inline-block;
+         }
+         input[type="checkbox"]:checked+span:before{
+             content:"";
+             display:block;
+             width:6px;
+             height:8px;
+             border:0 solid rgb(20, 20, 20);
+             border-width:0 1.5px 2px 0;
+             -webkit-transform:rotateZ(45deg);
+             margin:2px 5px;
+             pointer-events:none;
+         }
+         .name{
+             position: relative;
+             bottom: 10px;
+             margin-left: 10px;
+         }
+    }
+    .sub{
+        margin-top: 40px;
+        display: grid;
+        &_apply{
+            background-color: #FAC663;
+	        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+            text-decoration: none;
+            font-family: $lat;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            // line-height: 27px;
+            width: 200px;
+            height: 40px;
+            color:#000;
+            border-radius: 25px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            text-decoration: none;
+            transition: ease .4s;
+
+            &:hover {
+                background-color: rgb(231, 185, 133);
+                color:#fff;
+                box-shadow: 0px 5px 10px rgba(0, 0, 0, 0);
+            }
+        }
+        &_off{
+            margin-top: 11px;
+            border: 2px solid #fac663;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            text-decoration: none;
+            font-family: $lat;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            // line-height: 27px;
+            width: 200px;
+            height: 40px;
+            color:#000;
+            border-radius: 25px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            text-decoration: none;
+            transition: ease .4s;
+
+            &:hover {
+                background-color: rgba(250, 199, 116, 0.699);
+                color:#fff;
+                box-shadow: 0px 5px 10px rgba(0, 0, 0, 0);
+            }
+        }
+    }
+    .catalog{
+        margin-left: 120px;
+        position: relative;
+        top: 30px;
+        .items{
+            width: 270px;
+            height: 422px;
+            margin-right: 30px;
+            background-color: #fff;
+            border: 1px solid #e1e1e1;
+            box-shadow: 0px 0px 25px rgba(208, 208, 208, 0.25);
+            border-radius: 6px;
+            a{
+                img{
+                    width: 270px;
+                    height: 182px;
+                }
+            }
+            .title{
+                padding-left: 20px;
+            }
+            .description{
+                margin-left: 20px; 
+                position: relative;
+                bottom: 10px;
+            }
+            .area{
+                position: relative;
+                bottom: 28px;
+            }
+            .num{
+                position: relative;
+                bottom: 39px;
+                img{
+                    padding-left: 7px;
+                }
+            }
+            .price{
+                position: relative;
+                bottom: 49px;
+                span{
+                    font-weight: bold;
+                    padding-left: 10px;
+                }
+            }
+            .btncatalog{
+                position: relative;
+                bottom: 60px;
+                margin-left: 20px;
+                img{
+                    width: 35px;
+                    position: relative;
+                    left: 40px;
+                }
+            }
+        }
+    }
+    .flex{
+        display: flex;
+    }
+    .flex-two{
+        display: flex;
+        margin-top: 30px;
+    }
+}

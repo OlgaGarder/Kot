@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>Котейка</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/3.6.95/css/materialdesignicons.min.css" integrity="sha256-0JL+BtqmDiiObLBSZrxHKfxsydEXGb/4pXrWql05dto=" crossorigin="anonymous" />
+
+	<link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+
+    <section class="header">
+        <div class="container">
+            <div class="block">
+                <div class="fix">
+                    <a class="logo"><img src="img/logo.svg" alt="logo"></a>
+
+                    <ul class="menu">
+                        <li><a href="">Почему мы?</a></li>
+                        <li><a href="">Номера</a></li>
+                        <li><a href="">Отзывы </a></li>
+                        <li><a href="">Как нас найти</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="main">
+        <div class="container">
+
+            <ul class="accordion">
+                <li>
+                    <a href="#acc1" class="str">
+                        <img src="img/icon/Vector 6.svg">
+                    </a>
+                    <ul id="#acc1">
+                        <li><a>
+                           <img src="img/icon/Vector 8.svg" class="app"> <span>
+                           По площади</span>
+                        </a></li>
+                        <li><a> 
+                            <img src="img/icon/Vector 10.svg"><span> По площади</span>
+                        </a></li>
+                        <li><a>
+                            <img src="img/icon/Vector 8.svg"> <span>По цене</span>
+                        </a></li>
+                        <li><a> 
+                            <img src="img/icon/Vector 10.svg"><span> По цене</span>
+                        </a></li>
+                    </ul>
+                </li>
+            </ul>
+            <h1>Наши номера</h1>
+
+            <div class="block">
+
+                <div class="nav_menu">
+
+                    <form class="price" action="#" method="POST">
+                        <p class="heading">Цена за сутки,P</p>
+                        <p>
+                            <input type="text" class="num" placeholder=" от 100">
+                            <input type="text" class="num" placeholder=" до 600">
+                        </p>
+                    </form>
+
+                    <form class="area">
+                        <p class="heading">Площадь</p>
+                        <div>
+                            <label for="check1">
+                                <input type="checkbox" hidden checked>
+                                <span></span>
+                                <span class="num">0,63 м2</span>
+                            </label>
+                            <label for="check1">
+                                <input type="checkbox" hidden checked>
+                                <span></span>
+                                 <span class="num">0,90 м2</span>
+                            </label>
+                            <label for="check3">
+                                <input type="checkbox" hidden>
+                                <span></span>
+                                <span class="num">1,13 м2</span>
+                            </label>
+                            <label for="check4">
+                                <input type="checkbox" hidden checked>
+                                <span></span>
+                                <span class="num">1,56 м2</span>
+                            </label>
+                            <label for="check5">
+                                <input type="checkbox" hidden checked>
+                                <span></span>
+                                <span class="num">2,56 м2</span>
+                            </label>
+                            <label for="check6" >
+                                <input type="checkbox" hidden checked>
+                                <span></span>
+                                <span class="num">2,56 м2</span>
+                            </label>
+                        </div>
+                    </form>
+
+                    <form class="room">
+                        <p class="heading">Оснащение номера</p>
+                        <div>
+                            <label for="check1">
+                                <input type="checkbox" hidden>
+                                <span></span>
+                                <span class="name">Пустой номер</span>
+                            </label>
+                            <label for="check1">
+                                <input type="checkbox" hidden checked>
+                                <span></span>
+                                <span class="name">Лежак</span>
+                            </label>
+                            <label for="check1">
+                                <input type="checkbox" hidden checked>
+                                <span></span>
+                                <span class="name">Когтеточка</span>
+                            </label>
+                            <label for="check1">
+                                <input type="checkbox" hidden checked>
+                                <span></span>
+                                <span class="name">Игровой-комплекс</span>
+                            </label>
+                            <label for="check1">
+                                <input type="checkbox" hidden checked>
+                                <span></span>
+                                <span class="name">Домик</span>
+                            </label>
+                        </div>
+                    </form>
+                    <div class="sub">
+                        <a class="sub_apply">Применить</a>
+                        <a class="sub_off">Сбросить фильтр</a>
+                    </div>
+                </div>
+
+                <div class="catalog" id="out">
+                    
+                    <div class="flex">
+                        <div class="items">
+                            <a>
+                                <img  src="img/catalog/economy.png">
+                            </a>
+                            <p class="title">Эконом</p>
+                            <div class="description">
+                                <p class="sixe">Размеры (ШхГхВ) - 90х70х180 см</p>
+                                <p class="area">Площадь - 0,63 м2</p>
+                                <p class="num">Оснащение номера
+                                    <img src="img/icon/Vector (5).svg">
+                                </p>
+                                <p class="price">Цена за сутки: <span>100P</span></p>
+                            </div>
+                            <a class="btncatalog">Забронировать
+                                <img src="img/icon/paw.svg">
+                            </a>
+                        </div>
+                        
+                        <div class="items">
+                            <a>
+                                <img  src="img/catalog/economyplus.png">
+                            </a>
+                            <p class="title">Эконом плюс</p>
+                            <div class="description">
+                                <p class="sixe">Размеры (ШхГхВ) - 90х100х180 см</p>
+                                <p class="area">Площадь - 0,90 м2</p>
+                                <p class="num">Оснащение номера 
+                                    <img src="img/icon/Vector (1).svg">
+                                    <img src="img/icon/Vector (2).svg">
+                                </p>
+                                <p class="price">Цена за сутки: <span>200P</span></p>
+                            </div>
+                            <a class="btncatalog">Забронировать
+                                <img src="img/icon/paw.svg">
+                            </a>
+                        </div>
+    
+                        <div class="items">
+                            <a>
+                                <img  src="img/catalog/comfort.png">
+                            </a>
+                            <p class="title">Комфорт</p>
+                            <div class="description">
+                                <p class="sixe">Размеры (ШхГхВ)-100х125х180 см</p>
+                                <p class="area">Площадь - 1,13 м2</p>
+                                <p class="num">Оснащение номера
+                                    <img src="img/icon/Vector (1).svg">
+                                    <img src="img/icon/Vector (2).svg">
+                                    <img src="img/icon/Vector (3).svg">
+                                </p>
+                                <p class="price">Цена за сутки: <span>250P</span></p>
+                            </div>
+                            <a class="btncatalog">Забронировать
+                                <img src="img/icon/paw.svg">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="flex-two">
+                        <div class="items">
+                            <a>
+                                <img  src="img/catalog/suite.png">
+                            </a>
+                            <p class="title">Сьют</p>
+                            <div class="description">
+                                <p class="sixe">Размеры (ШхГхВ)-125х125х180см</p>
+                                <p class="area">Площадь - 1,56 м2</p>
+                                <p class="num">Оснащение номера 
+                                    <img src="img/icon/Vector (1).svg">
+                                    <img src="img/icon/Vector (2).svg">
+                                    <img src="img/icon/Vector (3).svg">
+                                </p>
+                                <p class="price">Цена за сутки: <span>350P</span></p>
+                            </div>
+                            <a class="btncatalog">Забронировать
+                                <img src="img/icon/paw.svg">
+                            </a>
+                        </div>
+                        
+                        <div class="items">
+                            <a>
+                                <img  src="img/catalog/luxury.png">
+                            </a>
+                            <p class="title">Люкс</p>
+                            <div class="description">
+                                <p class="sixe">Размеры(ШхГхВ) -160х160х180см</p>
+                                <p class="area">Площадь - 2,56 м2</p>
+                                <p class="num">Оснащение номера
+                                    <img src="img/icon/Vector (1).svg">
+                                    <img src="img/icon/Vector (2).svg">
+                                    <img src="img/icon/Vector (3).svg">
+                                    <img src="img/icon/Vector (4).svg">
+                                </p>
+                                <p class="price">Цена за сутки: <span>500P</span></p>
+                            </div>
+                            <a class="btncatalog">Забронировать
+                                <img src="img/icon/paw.svg">
+                            </a>
+                        </div>
+    
+                        <div class="items">
+                            <a>
+                                <img  src="img/catalog/superluxury.png">
+                            </a>
+                            <p class="title">Супер-люкс</p>
+                            <div class="description">
+                                <p class="sixe">Размеры (ШхГхВ)-180х160х180см</p>
+                                <p class="area">Площадь - 2,88 м2</p>
+                                <p class="num">Оснащение номера
+                                    <img src="img/icon/Vector (1).svg">
+                                    <img src="img/icon/Vector (2).svg">
+                                    <img src="img/icon/Vector (3).svg">
+                                    <img src="img/icon/Vector (4).svg">
+                                </p>
+                                <p class="price">Цена за сутки: <span>600P</span></p>
+                            </div>
+                            <a class="btncatalog">Забронировать
+                                <img src="img/icon/paw.svg">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/catalog.js"></script>
+</body>
+</html>
